@@ -1,30 +1,104 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Manrope';
     margin: 0;
     padding:0;
 }
 body{
-    background: #58A399;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    
 }
 .section-padding{
     padding: 70px 0;
 }
-.section-padding:hover{
-    background-color: #006769;
+#header {
+    background-color: #343a40; /* Color de fondo de la barra de navegación */
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.navbar {
+    background-color: #292A2E; 
+    color: white; 
+}
+.btn-inicio {
+    background-color:#292A2E; 
+    color: white;
+    border: none; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    border-radius: 12px; 
+    margin-top: 50px;
+
+}
+
+.btn-inicio:hover {
+    background-color: #111725; /* Cambiar color de fondo al pasar el cursor */
+    color: white; /* Cambiar color de texto al pasar el cursor */
+}
+
+
+.nav-link {
+    color: white; 
+}
+
+.nav-link:hover {
+    color: #ddd; 
+}
+
+@media (max-width: 991.98px) {
+    .nav__toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-start;
+    }
+}
+.navbar-container{
+    background-color: #111725;
+    color: #FFF;
+}
+.btn-navbar{
+    background: #292A2E;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
 }
 .carousel-item{
     height: 80vh;
     min-height: 300px;
+}
+.card:hover{
+    transform: translateY(-10px);
 }
 .carousel-caption{
     bottom: 200px;
     z-index: 2;
 }
 .carousel-caption h5{
-    font-size: 45px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .carousel-caption p{
     width: 60%;
@@ -48,32 +122,27 @@ body{
     box-shadow: #4F6F52;
 
 }
+.btn-navbar{
+    background-color: #111725;
+}
 footer{
-    background-color: #496989;
+    background-color: #111725;
 }
 .card-body{
-    background: #A8CD9F;
+    background: #888888;
     border-radius: 5px;
 }
 .btn-card{
-    background-color: #4F6F52;
+    background-color: #292A2E;
     border: 1px solid #000;
     border-radius: 5px;
     color: #FFF;
     width: 80px;
 }
-
-.card-body:hover{
-    background-color: #4F6F52;
-    .btn-card{
-        background-color: #E2F4C5;
-        color: #000;
-    }
-}
 .btn-footer{
-    background: #A8CD9F;
+    background: #292A2E;
     color: #FFF;
-    border: none;
+    border: 1px solid #FFF;
     border-radius: 5px;
 }
 @media(max-width : 767px){
