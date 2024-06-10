@@ -9,13 +9,12 @@ body{
     background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
-    
 }
 .section-padding{
     padding: 70px 0;
 }
 #header {
-    background-color: #343a40; /* Color de fondo de la barra de navegación */
+    background-color: #343a40; 
     color: white;
 }
 
@@ -42,17 +41,15 @@ body{
     text-decoration: none; 
     display: inline-block; 
     font-size: 16px; 
-    margin: 4px 2px; 
     transition-duration: 0.4s;
     cursor: pointer; 
     border-radius: 12px; 
-    margin-top: 50px;
 
 }
 
 .btn-inicio:hover {
-    background-color: #111725; /* Cambiar color de fondo al pasar el cursor */
-    color: white; /* Cambiar color de texto al pasar el cursor */
+    background-color: #111725; 
+    color: white; 
 }
 
 
@@ -93,12 +90,12 @@ body{
 .carousel-caption{
     bottom: 200px;
     z-index: 2;
+    margin-top: 200px;
 }
 .carousel-caption h5{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 30px;
 }
 .carousel-caption p{
     width: 60%;
@@ -122,8 +119,8 @@ body{
     box-shadow: #4F6F52;
 
 }
-.btn-navbar{
-    background-color: #111725;
+.about-img img{
+    border-radius: 5px;
 }
 footer{
     background-color: #111725;
